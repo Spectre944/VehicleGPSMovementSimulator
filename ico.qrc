@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file>images/Layer 1.png</file>
+        <file>images/Layer 3.png</file>
+        <file>images/MoveBackward.png</file>
+        <file>images/MoveForward.png</file>
+        <file>images/MoveLeft.png</file>
+        <file>images/MoveRight.png</file>
+        <file>images/up-arrow.png</file>
+        <file>images/brake.png</file>
+        <file>images/navigation-arrow.png</file>
+    </qresource>
+</RCC>
