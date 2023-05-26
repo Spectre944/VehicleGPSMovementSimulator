@@ -1,4 +1,4 @@
-#include "move.h"
+#include "inc/move.h"
 #include "ui_move.h"
 
 Move::Move(QWidget *parent)
@@ -8,7 +8,7 @@ Move::Move(QWidget *parent)
     ui->setupUi(this);
 
     timer = new QTimer();
-    timer->setInterval(1000);
+    timer->setInterval(TIM_INTER);
 
     connect(timer, &QTimer::timeout, this, QOverload<>::of(&Move::movementProc));
     timer->start();

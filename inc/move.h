@@ -13,7 +13,10 @@
 #include <QDir>
 #include <QFile>
 
-#include <coord_work.h>
+#include <inc/coord_work.h>
+
+
+#define TIM_INTER 100
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Move; }
@@ -36,7 +39,7 @@ public:
     QString savePathJSON(const QVector<Point>& coordinates);
     Point calculateNewPos(Point, int, int);
 
-    void startTimer() { timer->start(1000); }
+    void startTimer() { timer->start(TIM_INTER); }
 
     //vehicle params
     int speed;

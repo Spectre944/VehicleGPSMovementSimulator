@@ -1,4 +1,4 @@
-#include "move.h"
+#include "inc/move.h"
 
 #include <QApplication>
 

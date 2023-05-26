@@ -1,0 +1,5 @@
+To create virtual com port pair and abylity to send GPS coordinates to COM port
+	https://github.com/paulakg4/com0com
+	
+Instruction
+	https://www.youtube.com/watch?v=dZg7puQ9Ajk
